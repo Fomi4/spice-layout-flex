@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #574e53;
+}
+
+.color-blue {
+    color: #4e486e;
+}
+
+.color-yellow {
+    color: #ffa94b;
+}
+
+.color-violet {
+    color: #009e99;
+}
+
+.color-orange {
+    color: #de7b54;
+}
+
+h2 {
+    margin: 0;
+    font-family: 'Modak', cursive;
+    font-weight: normal;
+}
+
+.card-title,
+.card-description {
+    margin: 0 10px;
+}
+
+.bg-brown {
+    background: #d5ccbb;
+}
+
+.spice-wrap {
+    padding: 15px 0 40px;
+    border-bottom: 1px solid #b3afa4;
+}
+
+.spice-wrap:last-child {
+    border-bottom: none;
+}
+
+.spice-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 20px;
+}
+
+.spaice-item {
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    margin: 10px 5px;
+    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.5);
+    max-width: 275px;
+}
+
+.spice-title,
+.spice-description {
+    padding: 0 10px;
+}
+
+.spice-title {
+    font-family: 'Modak', cursive;
+    margin: 20px 0 10px;
+}
+
+.spice-description {
+    margin-bottom: 20px;
+}
+
+.spice-img img {
+    width: 100%;
+}
+
+.spice-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px solid #ebebeb;
+    padding: 15px 10px;
+}
